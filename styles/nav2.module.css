@@ -1,0 +1,30 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.list > li {
+	background: linear-gradient(to right,#f59090,#fcd7a1,#fff9b1,#a5d4ad,#a3bce2,#a59aca,#cfa7cd);
+  border: 1px solid #300;
+  border-left: 0;
+  display: block;
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 98px;
+}
+.list li:first-child {
+  border-left: 1px solid #300;
+}
+.list a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+.list a:hover {
+  text-decoration: underline;
+}
+

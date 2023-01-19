@@ -1,0 +1,10 @@
+.text {
+/*border: solid 2px currentColor;*/
+color: green;
+}
+
+.title {
+font-size: 80px;
+background-color: #c00;
+}
+

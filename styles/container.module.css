@@ -1,0 +1,18 @@
+.default {
+width: 100%;
+margin: 0 auto;
+}
+.default h4 {
+color: #F00;
+margin: 0 auto;
+text-align: center;
+font-size: 10;
+}
+.large {
+composes: default;
+max-width: 1180px;
+}
+.default a {
+    padding: 20px;
+}
+

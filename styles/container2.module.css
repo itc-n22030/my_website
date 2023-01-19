@@ -1,0 +1,10 @@
+.default {
+width: 100%;
+margin: 0 auto;
+padding: 8px;
+}
+.large {
+composes: default;
+max-width: 1180px;
+}
+

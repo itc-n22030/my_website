@@ -1,0 +1,44 @@
+.stack {
+border: 1px solid #CCC;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 80%;
+}
+.stack > * + *{
+margin-top: var(--stack-space, 1.5em);
+}
+
+.stack p {
+    line-height: 1em;
+}
+
+.stack h2,
+.stack h3 {
+--stack-space: 1.8em;
+font-size: 20px;
+font-weight: bold;
+font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+border-left: 5px solid #c00;
+padding-left: 20px;
+}

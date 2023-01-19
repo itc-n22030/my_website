@@ -1,0 +1,69 @@
+.title {
+padding: 8px;
+}
+.title h1 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+.list  li {
+  background-color: #c66;
+  border: 1px solid #930;
+  border-left: 0;
+  cursor: pointer;
+  float: left;
+  height: 28px;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  width: 148px;
+}
+.list  li:first-child {
+  border-left: 1px solid #930;
+}
+.list  li:hover {
+background-color: #FF3333;
+}
+.list  li  h2 {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  text-align: center;
+}
+.menu {
+  background-color: #FFF;
+  border: 1px solid #999;
+  border-top: 0;
+  left: -1px;
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  padding: 0;
+  top: 27px;
+-webkit-transition: max-height ease 1.0s;
+-moz-transition: max-height ease 1.0s;
+-o-transition: max-height ease 1.0s;
+-ms-transition: max-height ease 1.0s;
+transition: max-height ease 1.0s;
+width: 148px;
+}
+.list > li:hover .menu {
+  max-height: 500px;
+}
+.menu > li {
+  border: 1px solid #CCC;
+  font-size: 13px;
+  padding: 5px 0;
+  text-align: center;
+}
+.menu > li:first-child {
+  border-top: 0;
+}
+.menu > li:hover {
+  background-color: #FFF;
+}
