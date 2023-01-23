@@ -1,6 +1,27 @@
-import Sample5 from 'components/sample5.js'
+import styles from 'styles/sample5.module.css'
 export default function Page () {
   return (
-    <Sample5 />
+    <ul className={styles.pop}>
+      <li>
+        <h2>
+          <a href='#'>Home</a>
+        </h2>
+      </li>
+      <li>
+        <h2>
+          <a href='#'>About</a>
+        </h2>
+      </li>
+      <li>
+        <h2>
+          <a href='#'>Topics</a>
+        </h2>
+      </li>
+      <li>
+        <h2>
+          <a href='#'>Link</a>
+        </h2>
+      </li>
+    </ul>
   )
 }
